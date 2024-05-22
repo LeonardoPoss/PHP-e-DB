@@ -35,7 +35,7 @@ function retornarTodos($db){
     return $stmt->fetchAll();
 }
 
-inserir($db, 1, 'Matheus', 'email@email.com');
+inserir($db, 1, 'Leonardo', 'email@email.com');
 inserir($db, 2, 'Nome2', 'email2@email.com');
 inserir($db, 3, 'Nome3', 'email3@email.com');
 
